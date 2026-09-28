@@ -4,9 +4,9 @@ server:
 
 lavalink:
   server:
-    password: "youshallnotpass"
+    password: "y"
     sources:
-      youtube: false       # Disabled — using the custom YT plugin instead
+      youtube: false       
       bandcamp: true
       soundcloud: true
       twitch: true
@@ -27,7 +27,6 @@ plugins:
     allowSearch: true
     allowDirectVideoIds: true
     allowDirectPlaylistIds: true
-    # Using plugin defaults: WEB_REMIX, ANDROID_VR, WEB, WEB_EMBEDDED_PLAYER
     oauth:
       enabled: false
 
